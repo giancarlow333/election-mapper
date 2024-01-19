@@ -14,9 +14,7 @@ export default function Home() {
         vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
         fames ac ante ipsum primis in faucibus.
       </p>
-      <section class="svg-area">
-        <svg id="svg-output" version="1.1" width="500" height="500" xmlns="http://www.w3.org/2000/svg">
-        </svg>
+      <section id="svg-area">
       </section>
     </div>
   );
