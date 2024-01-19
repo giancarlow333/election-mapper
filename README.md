@@ -16,6 +16,8 @@
 * Add support for shifts to multiple parties
 * Add ability to export detailed results of these elections
 
+For future reference: https://www.freecodecamp.org/news/how-to-import-svgs-in-react-and-vite/
+
 ## Sources
 
 Some boilerplate code copied from an old UCLA class activity, and was class-provided.

@@ -5,9 +5,20 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Election Mapper</title>
-    <script type="module" src="/assets/svgscript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@svgdotjs/svg.js@3.0/dist/svg.min.js"></script>
+    <script src="/assets/svgscript.js"></script>
   </head>
   <body>
-    <div id="root"></div>
+    <header>
+      <h1>Election Mapper</h1>
+    </header>
+    <main>
+      <article class="main-area"><!-- MAIN BODY -->
+        <section class="svg-area">
+          <svg id="svg-output" version="1.1" width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+          </svg>
+        </section>
+      </article>
+    </main>
   </body>
 </html>
