@@ -1,4 +1,7 @@
-import { $, jQuery } from '@jquery';
+import { $, jQuery } from 'jquery';
+const { JSDOM } = require( "jsdom" );
+const { window } = new JSDOM( "" );
+const $ = require( "jquery" )( window );
 // export for others scripts to use
 //window.$ = $;
 //window.jQuery = jQuery;
