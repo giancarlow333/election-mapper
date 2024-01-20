@@ -1,4 +1,4 @@
-const { JSDOM } = require( "jsdom" );
+import { JSDOM } from "jsdom";
 const { window } = new JSDOM( "" );
 const $ = require( "jquery" )( window );
 // export for others scripts to use
